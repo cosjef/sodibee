@@ -3,9 +3,9 @@ class Address
   
   field :street, type: String
   field :zip, type: Integer
-  field :city, type String
-  field :state, type String
-  field :country, type String
+  field :city, type: String
+  field :state, type: String
+  field :country, type: String
   
   belongs_to  :location, polymorphic: true
 end

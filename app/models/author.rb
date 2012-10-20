@@ -1,4 +1,6 @@
 class Author
+  include Mongoid::Document
+
   field :Name, type: String
   
   validates_presence_of :name
